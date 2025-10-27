@@ -173,11 +173,13 @@ export const Frame1 = () => {
         </div>
       </div>
 
-      <div className="relative w-[1002px] h-[562.5px] mr-[-2.00px]">
-        <div className="top-0 w-[1000px] h-[562px] bg-[#d9d9d9] absolute left-0" />
+      <div className="flex items-center justify-center relative w-full">
+        <div className="relative w-[1000px] h-[562px]">
+          <div className="w-full h-full bg-[#d9d9d9] rounded-[10px]" />
 
-        <div className="absolute top-[261px] left-[474px] [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#111111] text-2xl tracking-[4.80px] leading-10 whitespace-nowrap">
-          動画
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#111111] text-2xl tracking-[4.80px] leading-10 whitespace-nowrap">
+            動画
+          </div>
         </div>
       </div>
     </div>
