@@ -61,7 +61,7 @@ export const Frame182 = ({
         />
       </div>
 
-      <div className="flex flex-col items-start gap-2.5 pt-[60px] pb-0 px-[340px] relative self-stretch w-full flex-[0_0_auto]">
+      <div className="flex flex-col items-center gap-2.5 pt-[60px] pb-0 px-[340px] relative self-stretch w-full flex-[0_0_auto]">
         <img
           className="relative w-[600px] h-[283px] aspect-[2.12] object-cover"
           alt="Image"
