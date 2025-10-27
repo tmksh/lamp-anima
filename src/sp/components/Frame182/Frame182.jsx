@@ -13,7 +13,6 @@ export const Frame182 = ({
   frame16IconfinderSocial = "/img/iconfinder-social-media-applications-5line-4102577-113787-1-2.svg",
   path = "/img/path-1462.svg",
   img = "/img/path-1518.svg",
-  path1 = "/img/path-1732.svg",
   path2 = "/img/path-1074.svg",
   path3 = "/img/path-964.svg",
   path4 = "/img/path-1620.svg",
@@ -21,7 +20,6 @@ export const Frame182 = ({
   logo = "/img/logo-1.svg",
   to,
   to1,
-  to2,
   to3,
   to4,
   to5,
@@ -30,7 +28,7 @@ export const Frame182 = ({
     <div
       className={`inline-flex flex-col items-start relative top-[1963px] left-[-18230px] ${className}`}
     >
-      <div className="flex flex-col w-[1280px] items-center justify-center gap-[50px] px-[90px] py-20 relative flex-[0_0_auto] bg-[url(/img/frame-14.png)] bg-cover bg-[50%_50%]">
+      <div className="flex flex-col w-full items-center justify-center gap-[50px] px-[90px] py-20 relative flex-[0_0_auto] bg-[url(/img/frame-14.png)] bg-cover bg-[50%_50%]">
         <div className="relative w-[628px] h-24">
           <div className="absolute top-0 left-px [font-family:'Allura',Helvetica] font-normal text-[#dec17a] text-[64px] tracking-[0] leading-[normal]">
             Request &amp; Contact
@@ -61,7 +59,7 @@ export const Frame182 = ({
         />
       </div>
 
-      <div className="flex flex-col items-start gap-2.5 pt-[60px] pb-0 px-[340px] relative self-stretch w-full flex-[0_0_auto]">
+      <div className="flex flex-col items-center gap-2.5 pt-[60px] pb-0 px-[90px] relative self-stretch w-full flex-[0_0_auto]">
         <img
           className="relative w-[600px] h-[283px] aspect-[2.12] object-cover"
           alt="Image"
@@ -71,16 +69,16 @@ export const Frame182 = ({
 
       <div className="flex flex-col items-center relative self-stretch w-full flex-[0_0_auto]">
         <div className="flex flex-col items-start justify-end relative self-stretch w-full flex-[0_0_auto]">
-          <div className="flex flex-col w-[1280px] items-center justify-center gap-[50px] px-0 py-[60px] relative flex-[0_0_auto]">
+          <div className="flex flex-col w-full items-center justify-center gap-[50px] px-0 py-[60px] relative flex-[0_0_auto]">
             <img
-              className="absolute top-[calc(50.00%_-_110px)] left-0 w-[1280px] h-[220px]"
+              className="absolute top-[calc(50.00%_-_110px)] left-0 w-full h-[220px]"
               alt="Rectangle"
               src="/img/rectangle-55.png"
             />
 
-            <div className="flex w-[1100px] items-center justify-between relative flex-[0_0_auto]">
+            <div className="inline-flex items-center gap-[33.33px] relative flex-[0_0_auto]">
               <Link
-                className="ml-[-3.00px] flex flex-col w-64 h-[126px] items-center justify-center gap-2.5 px-[38px] py-[84px] relative mt-[-3.00px] mb-[-3.00px] bg-[#d2a3cb] rounded-[10px] overflow-hidden border-[3px] border-solid border-white shadow-[0px_5px_5px_#0000001a]"
+                className="flex flex-col w-64 h-[126px] items-center justify-center gap-2.5 px-[38px] py-[84px] relative mt-[-3.00px] mb-[-3.00px] ml-[-3.00px] bg-[#d2a3cb] rounded-[10px] overflow-hidden border-[3px] border-solid border-white shadow-[0px_5px_5px_#0000001a]"
                 to={to}
               >
                 <img
@@ -106,21 +104,6 @@ export const Frame182 = ({
 
                 <div className="relative w-fit mt-[-41.50px] mb-[-35.50px] font-semibold text-white text-2xl text-center leading-[normal] [font-family:'Shippori_Mincho',Helvetica] tracking-[0]">
                   講師紹介
-                </div>
-              </Link>
-
-              <Link
-                className="flex flex-col w-64 h-[126px] items-center justify-center gap-2.5 px-[38px] py-[84px] relative mt-[-3.00px] mb-[-3.00px] bg-[#d2a3cb] rounded-[10px] overflow-hidden border-[3px] border-solid border-white shadow-[0px_5px_5px_#0000001a]"
-                to={to2}
-              >
-                <img
-                  className="absolute top-0 left-[15px] w-[210px] h-[120px]"
-                  alt="Path"
-                  src={path1}
-                />
-
-                <div className="relative w-fit mt-[-41.50px] mb-[-35.50px] [text-shadow:0px_10px_10px_#0000000d] font-semibold text-white text-2xl text-center leading-[normal] [font-family:'Shippori_Mincho',Helvetica] tracking-[0]">
-                  プランの紹介
                 </div>
               </Link>
 
@@ -186,18 +169,20 @@ export const Frame182 = ({
           </div>
 
           <img
-            className="relative w-[1280px] h-[375.42px]"
+            className="relative w-full h-[375.42px]"
             alt="Element"
             src="/img/2024-09-08-1-46-17-1.png"
           />
 
-          <div className="flex w-[1280px] items-center gap-[268px] px-[90px] py-10 relative flex-[0_0_auto]">
+          <div className="flex w-full items-center gap-[268px] px-[90px] py-10 relative flex-[0_0_auto]">
             <div className="flex flex-col w-[264px] items-start gap-5 relative">
-              <img
-                className="relative w-[150px] h-[80.93px]"
-                alt="Logo"
-                src={logo}
-              />
+              <Link to="/" className="cursor-pointer">
+                <img
+                  className="relative w-[150px] h-[80.93px]"
+                  alt="Logo"
+                  src={logo}
+                />
+              </Link>
 
               <div className="flex flex-col items-start gap-2.5 relative self-stretch w-full flex-[0_0_auto]">
                 <div className="relative self-stretch mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#111111] text-lg tracking-[0] leading-[normal]">
@@ -220,10 +205,6 @@ export const Frame182 = ({
 
                 <div className="relative self-stretch font-semibold text-[#111111] text-[15px] leading-[normal] [font-family:'Shippori_Mincho',Helvetica] tracking-[0]">
                   講師紹介
-                </div>
-
-                <div className="relative w-fit font-semibold text-[#111111] text-[15px] text-center leading-[normal] [font-family:'Shippori_Mincho',Helvetica] tracking-[0]">
-                  プランのご紹介
                 </div>
 
                 <div className="relative w-fit font-semibold text-[#111111] text-[15px] text-center leading-[normal] [font-family:'Shippori_Mincho',Helvetica] tracking-[0]">
@@ -256,12 +237,12 @@ export const Frame182 = ({
           </div>
 
           <img
-            className="relative w-[1280px] h-px object-cover"
+            className="relative w-full h-px object-cover"
             alt="Line"
             src="/img/line-1.svg"
           />
 
-          <div className="flex w-[1280px] h-[69px] items-center justify-center gap-2.5 px-[90px] py-5 relative">
+          <div className="flex w-full h-[69px] items-center justify-center gap-2.5 px-[90px] py-5 relative">
             <p className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#a2a2a2] text-[15px] tracking-[0] leading-[normal]">
               © lamp pilates studio All rights reserved.
             </p>
@@ -276,7 +257,6 @@ Frame182.propTypes = {
   frame16IconfinderSocial: PropTypes.string,
   path: PropTypes.string,
   img: PropTypes.string,
-  path1: PropTypes.string,
   path2: PropTypes.string,
   path3: PropTypes.string,
   path4: PropTypes.string,
@@ -284,7 +264,6 @@ Frame182.propTypes = {
   logo: PropTypes.string,
   to: PropTypes.string,
   to1: PropTypes.string,
-  to2: PropTypes.string,
   to3: PropTypes.string,
   to4: PropTypes.string,
   to5: PropTypes.string,

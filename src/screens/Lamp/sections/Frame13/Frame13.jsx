@@ -2,7 +2,7 @@ import React from "react";
 
 export const Frame13 = () => {
   return (
-    <div className="flex flex-col w-[1280px] items-center justify-center gap-[50px] pt-20 pb-[120px] px-[90px] relative flex-[0_0_auto]">
+    <div className="flex flex-col w-full items-center justify-center gap-[50px] pt-20 pb-[120px] px-[90px] relative flex-[0_0_auto]">
       <div className="relative w-[1124.5px] h-[375px] ml-[-12.25px] mr-[-12.25px]">
         <div className="left-0 absolute top-0 w-[590px] h-[300px] bg-[#d2a3cb] rounded-[10px]" />
 

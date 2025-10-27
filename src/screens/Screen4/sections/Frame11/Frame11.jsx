@@ -9,7 +9,6 @@ export const Frame11 = () => {
       img="/img/path1518-6.svg"
       logo="/img/logo-1-5.svg"
       path="/img/path1462-6.svg"
-      path1="/img/path1732-6.svg"
       path2="/img/path1074-6.svg"
       path3="/img/path964-6.svg"
       path4="/img/path1620-6.svg"

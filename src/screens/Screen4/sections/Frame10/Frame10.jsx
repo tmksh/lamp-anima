@@ -2,8 +2,8 @@ import React from "react";
 
 export const Frame10 = () => {
   return (
-    <div className="flex flex-col w-[1280px] items-center justify-center gap-[100px] pl-[86px] pr-[136px] pt-20 pb-[120px] relative flex-[0_0_auto] bg-[#fcfbf9]">
-      <div className="flex flex-col items-end gap-[50px] relative self-stretch w-full flex-[0_0_auto]">
+    <div className="flex flex-col w-full items-center justify-center gap-[100px] pl-[86px] pr-[136px] pt-20 pb-[120px] relative flex-[0_0_auto] bg-[#fcfbf9]">
+      <div className="flex flex-col items-center gap-[50px] relative self-stretch w-full flex-[0_0_auto]">
         <div className="flex w-[1050px] items-start justify-center gap-[50px] relative flex-[0_0_auto]">
           <div className="relative w-[400px] h-[530px]">
             <img
@@ -68,7 +68,7 @@ export const Frame10 = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-end gap-[50px] relative self-stretch w-full flex-[0_0_auto]">
+      <div className="flex flex-col items-center gap-[50px] relative self-stretch w-full flex-[0_0_auto]">
         <div className="flex w-[1050px] items-start justify-center gap-[50px] relative flex-[0_0_auto]">
           <div className="relative w-[400px] h-[530px]">
             <img

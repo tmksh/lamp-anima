@@ -2,9 +2,9 @@ import React from "react";
 
 export const Group = () => {
   return (
-    <div className="relative w-[1280px] h-[500px]">
+    <div className="relative w-full h-[500px]">
       <img
-        className="top-0 w-[1280px] h-[400px] absolute left-0"
+        className="top-0 w-full h-[400px] absolute left-0"
         alt="Rectangle"
         src="/img/rectangle-60.png"
       />

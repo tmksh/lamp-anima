@@ -2,7 +2,7 @@ import React from "react";
 
 export const Frame1 = () => {
   return (
-    <div className="flex flex-col w-[1280px] items-start gap-20 pt-20 pb-[120px] px-[140px] relative flex-[0_0_auto]">
+    <div className="flex flex-col w-full items-start gap-20 pt-20 pb-[120px] px-[140px] relative flex-[0_0_auto]">
       <div className="flex flex-col items-start gap-[60px] relative self-stretch w-full flex-[0_0_auto]">
         <div className="flex flex-col items-start gap-5 relative self-stretch w-full flex-[0_0_auto]">
           <img
@@ -99,7 +99,7 @@ export const Frame1 = () => {
                 </div>
 
                 <img
-                  className="relative self-stretch w-full aspect-[0.74]"
+                  className="relative w-[250px] aspect-[0.74]"
                   alt="Element"
                   src="/img/2025-10-20-0-37-16-1.png"
                 />
@@ -173,11 +173,13 @@ export const Frame1 = () => {
         </div>
       </div>
 
-      <div className="relative w-[1002px] h-[562.5px] mr-[-2.00px]">
-        <div className="top-0 w-[1000px] h-[562px] bg-[#d9d9d9] absolute left-0" />
+      <div className="flex items-center justify-center relative w-full">
+        <div className="relative w-[1000px] h-[562px]">
+          <div className="w-full h-full bg-[#d9d9d9] rounded-[10px]" />
 
-        <div className="absolute top-[261px] left-[474px] [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#111111] text-2xl tracking-[4.80px] leading-10 whitespace-nowrap">
-          動画
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#111111] text-2xl tracking-[4.80px] leading-10 whitespace-nowrap">
+            動画
+          </div>
         </div>
       </div>
     </div>
