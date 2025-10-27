@@ -2,7 +2,7 @@ import React from "react";
 
 export const Frame1 = () => {
   return (
-    <div className="flex flex-col w-[1280px] items-start gap-20 pt-20 pb-[120px] px-[140px] relative flex-[0_0_auto]">
+    <div className="flex flex-col w-full items-start gap-20 pt-20 pb-[120px] px-[140px] relative flex-[0_0_auto]">
       <div className="flex flex-col items-start gap-[60px] relative self-stretch w-full flex-[0_0_auto]">
         <div className="flex flex-col items-start gap-5 relative self-stretch w-full flex-[0_0_auto]">
           <img

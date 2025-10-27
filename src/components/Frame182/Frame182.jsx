@@ -30,7 +30,7 @@ export const Frame182 = ({
     <div
       className={`inline-flex flex-col items-start relative top-[1963px] left-[-18230px] ${className}`}
     >
-      <div className="flex flex-col w-[1280px] items-center justify-center gap-[50px] px-[90px] py-20 relative flex-[0_0_auto] bg-[url(/img/frame-14.png)] bg-cover bg-[50%_50%]">
+      <div className="flex flex-col w-full items-center justify-center gap-[50px] px-[90px] py-20 relative flex-[0_0_auto] bg-[url(/img/frame-14.png)] bg-cover bg-[50%_50%]">
         <div className="relative w-[628px] h-24">
           <div className="absolute top-0 left-px [font-family:'Allura',Helvetica] font-normal text-[#dec17a] text-[64px] tracking-[0] leading-[normal]">
             Request &amp; Contact
@@ -71,9 +71,9 @@ export const Frame182 = ({
 
       <div className="flex flex-col items-center relative self-stretch w-full flex-[0_0_auto]">
         <div className="flex flex-col items-start justify-end relative self-stretch w-full flex-[0_0_auto]">
-          <div className="flex flex-col w-[1280px] items-center justify-center gap-[50px] px-0 py-[60px] relative flex-[0_0_auto]">
+          <div className="flex flex-col w-full items-center justify-center gap-[50px] px-0 py-[60px] relative flex-[0_0_auto]">
             <img
-              className="absolute top-[calc(50.00%_-_110px)] left-0 w-[1280px] h-[220px]"
+              className="absolute top-[calc(50.00%_-_110px)] left-0 w-full h-[220px]"
               alt="Rectangle"
               src="/img/rectangle-55.png"
             />
@@ -186,12 +186,12 @@ export const Frame182 = ({
           </div>
 
           <img
-            className="relative w-[1280px] h-[375.42px]"
+            className="relative w-full h-[375.42px]"
             alt="Element"
             src="/img/2024-09-08-1-46-17-1.png"
           />
 
-          <div className="flex w-[1280px] items-center gap-[268px] px-[90px] py-10 relative flex-[0_0_auto]">
+          <div className="flex w-full items-center gap-[268px] px-[90px] py-10 relative flex-[0_0_auto]">
             <div className="flex flex-col w-[264px] items-start gap-5 relative">
               <img
                 className="relative w-[150px] h-[80.93px]"
@@ -256,12 +256,12 @@ export const Frame182 = ({
           </div>
 
           <img
-            className="relative w-[1280px] h-px object-cover"
+            className="relative w-full h-px object-cover"
             alt="Line"
             src="/img/line-1.svg"
           />
 
-          <div className="flex w-[1280px] h-[69px] items-center justify-center gap-2.5 px-[90px] py-5 relative">
+          <div className="flex w-full h-[69px] items-center justify-center gap-2.5 px-[90px] py-5 relative">
             <p className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#a2a2a2] text-[15px] tracking-[0] leading-[normal]">
               © lamp pilates studio All rights reserved.
             </p>

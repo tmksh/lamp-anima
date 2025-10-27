@@ -20,7 +20,7 @@ export const Frame49 = ({
 }) => {
   return (
     <div
-      className={`flex w-[1280px] h-[77px] items-center justify-between px-[30px] py-1.5 relative bg-[#ffffff66] ${className}`}
+      className={`flex w-full h-[77px] items-center justify-between px-[30px] py-1.5 relative bg-[#ffffff66] ${className}`}
     >
       <img
         className="relative w-[100px] h-[53.95px] z-[1]"

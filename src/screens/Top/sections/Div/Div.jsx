@@ -3,7 +3,7 @@ import { ConcreteComponentNode } from "../../../../components/ConcreteComponentN
 
 export const Div = () => {
   return (
-    <div className="flex w-[1280px] h-[600px] items-center justify-center gap-[63px] relative bg-[url(/img/frame-172.png)] bg-cover bg-[50%_50%]">
+    <div className="flex w-full h-[600px] items-center justify-center gap-[63px] relative bg-[url(/img/frame-172.png)] bg-cover bg-[50%_50%]">
       <div className="absolute top-7 left-36 w-[395px] h-[395px] rounded-[10px]" />
 
       <img

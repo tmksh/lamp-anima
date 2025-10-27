@@ -15,7 +15,7 @@ export const SectionComponentNode = () => {
         </div>
       </div>
 
-      <div className="flex w-[1280px] items-center justify-center gap-[35px] relative flex-[0_0_auto]">
+      <div className="flex w-full items-center justify-center gap-[35px] relative flex-[0_0_auto] px-[75px]">
         <Frame22
           className="!h-[443px] !ml-[-155.00px] !flex-[0_0_auto] !left-[unset] !top-[unset]"
           divClassName="!text-[#a2a2a2]"

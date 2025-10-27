@@ -3,7 +3,7 @@ import { Frame49 } from "../../../../components/Frame49";
 
 export const Frame = () => {
   return (
-    <div className="flex flex-col w-[1280px] h-[720px] items-start gap-2.5 relative">
+    <div className="flex flex-col w-full h-[720px] items-start gap-2.5 relative">
       <Frame49
         className="!z-[2]"
         to="/lampu12398u32057u20171"
@@ -13,8 +13,8 @@ export const Frame = () => {
         to4="/u21463u35611u12398u27969u12428"
         to5="/u32946u25104u12459u12522u12461u12517u12521u12512"
       />
-      <div className="absolute top-0 left-[86px] w-[1194px] h-[720px] z-[1]">
-        <div className="flex flex-col w-[1194px] h-[720px] items-start justify-end gap-[30px] pt-[164px] pb-[70px] px-[75px] relative bg-[url(/img/frame-80.png)] bg-cover bg-[50%_50%]">
+      <div className="absolute top-0 left-0 right-0 h-[720px] z-[1]">
+        <div className="flex flex-col w-full h-[720px] items-start justify-end gap-[30px] pt-[164px] pb-[70px] px-[75px] relative bg-[url(/img/frame-80.png)] bg-cover bg-[50%_50%]">
           <div className="inline-flex flex-col items-start gap-[30px] relative flex-[0_0_auto]">
             <div className="inline-flex items-center justify-center gap-2.5 px-10 py-2.5 relative flex-[0_0_auto] bg-[#d2a3cb] rounded-[5px]">
               <div className="relative w-fit mt-[-1.00px] font-bold text-white text-5xl leading-[normal] [font-family:'Shippori_Mincho',Helvetica] tracking-[0]">

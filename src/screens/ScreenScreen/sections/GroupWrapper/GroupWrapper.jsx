@@ -2,9 +2,9 @@ import React from "react";
 
 export const GroupWrapper = () => {
   return (
-    <div className="relative w-[1280px] h-[500px]">
+    <div className="relative w-full h-[500px]">
       <img
-        className="top-0 h-[400px] absolute left-0 w-[1280px]"
+        className="top-0 h-[400px] absolute left-0 w-full"
         alt="Rectangle"
         src="/img/rectangle-60-1.png"
       />

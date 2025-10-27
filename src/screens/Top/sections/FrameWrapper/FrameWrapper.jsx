@@ -3,7 +3,7 @@ import { ConcreteComponentNode } from "../../../../components/ConcreteComponentN
 
 export const FrameWrapper = () => {
   return (
-    <div className="flex w-[1280px] justify-between px-[90px] py-20 items-center relative flex-[0_0_auto]">
+    <div className="flex w-full justify-between px-[90px] py-20 items-center relative flex-[0_0_auto]">
       <div className="inline-flex flex-col items-start gap-[30px] relative flex-[0_0_auto]">
         <div className="relative w-[364px] h-[142px]">
           <div className="absolute top-0 left-px [font-family:'Allura',Helvetica] font-normal text-[#dec17a] text-[64px] tracking-[0] leading-[normal]">
