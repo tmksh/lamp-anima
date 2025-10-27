@@ -9,9 +9,11 @@ export const Default = {
   args: {
     className: {},
     rectangle: "/img/rectangle-64.png",
-    text: "01",
-    text1: "事前面談",
-    text2:
-      "受講前に個別面談を実施し、あなたの目標や希望に合わせた学習プランを作成します。学びのスタートをサポートする重要なステップです。",
+    divClassName: {},
+    text: "カウンセリングとプラン作成",
+    divClassNameOverride: {},
+    text1:
+      "受講前に個別カウンセリングを行い、あなたに最適な学習プランを作成します。",
+    text2: "01",
   },
 };

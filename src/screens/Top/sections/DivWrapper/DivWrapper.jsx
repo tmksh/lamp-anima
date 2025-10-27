@@ -1,38 +1,52 @@
 import React from "react";
 import { ConcreteComponentNode } from "../../../../components/ConcreteComponentNode";
-import { Group } from "../../../../components/Group";
+import { Frame15 } from "../../../../components/Frame15";
 
 export const DivWrapper = () => {
   return (
-    <div className="flex flex-col w-[375px] items-center justify-center px-5 py-[30px] relative flex-[0_0_auto] bg-[url(/img/frame-172.png)] bg-cover bg-[50%_50%]">
-      <img
-        className="relative w-[300px] h-[426.01px]"
-        alt="Img"
-        src="/img/img-1515-2.png"
-      />
+    <div className="flex flex-col items-center justify-center gap-[50px] px-[90px] py-20 relative self-stretch w-full flex-[0_0_auto]">
+      <div className="w-[266px] relative h-24">
+        <div className="absolute top-0 left-px [font-family:'Allura',Helvetica] font-normal text-[#dec17a] text-[64px] tracking-[0] leading-[normal]">
+          fascination
+        </div>
 
-      <div className="w-[335px] px-0 py-[30px] rounded-[10px] flex flex-col items-center gap-[30px] relative flex-[0_0_auto]">
-        <Group
-          className="!self-stretch !flex-[0_0_auto] !left-[unset] !w-full !top-[unset]"
-          divClassName="![align-self:unset] !w-fit"
-          divClassNameOverride="![align-self:unset] !w-fit"
-          text="Greetings"
-          text1="ご挨拶"
+        <div className="absolute top-[26px] left-0 font-medium text-[#111111] text-5xl [font-family:'Shippori_Mincho',Helvetica] tracking-[0] leading-[normal]">
+          lampの特徴
+        </div>
+      </div>
+
+      <div className="flex w-[1100px] items-center justify-center gap-[69px] relative flex-[0_0_auto]">
+        <Frame15
+          className="!pt-5 !pb-[30px] !px-5 !left-[unset] !top-[unset]"
+          divClassName="!text-[#111111]"
+          divClassNameOverride="!text-[#111111] !text-[17px] !leading-[28.9px]"
+          rectangle="/img/rectangle-5-1.png"
+          text="メンター制度"
+          text1="1人1人に現役のインストラクターがつくので困ったときに直ぐ質問し解決することが可能です"
         />
-        <p className="self-stretch font-normal text-[#111111] text-[15px] leading-[25.5px] relative [font-family:'Shippori_Mincho',Helvetica] tracking-[0]">
-          資格を取っても、すぐに教えるのは不安。そんな声を何度も耳にしてきました。
-          だからlampでは、ただ学ぶだけでなく、
-          “教えられる力”を育てる講座をつくりました。
-          卒業後には、60分レッスンの設計と実践をしっかり経験 できます。
-          不安を自信に変えて、一歩を踏み出しましょう
-        </p>
-
-        <ConcreteComponentNode
-          className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
-          text="インストラクター紹介はこちら"
-          to="/u35611u24107u32057u20171"
+        <Frame15
+          className="!pt-5 !pb-[30px] !px-5 !left-[unset] !top-[unset]"
+          divClassName="!text-[#111111]"
+          divClassNameOverride="!text-[#111111] !text-[17px] !leading-[28.9px]"
+          rectangle="/img/rectangle-5-2.png"
+          text="就職支援"
+          text1=" “教える場所”があるから、一歩踏み出せる。 卒業後はlampで週2コマから実践デビューが可能です。"
+        />
+        <Frame15
+          className="!pt-5 !pb-[30px] !px-5 !left-[unset] !top-[unset]"
+          divClassName="!text-[#111111]"
+          divClassNameOverride="!text-[#111111] !text-[17px] !leading-[28.9px]"
+          rectangle="/img/rectangle-5-3.png"
+          text="指導力が身につく"
+          text1="即戦力として60分のリフォーマークラスが担当できるようにプログラムが構成されています"
         />
       </div>
+
+      <ConcreteComponentNode
+        className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
+        text="詳しくはこちら"
+        to="/lampu12398u32057u20171"
+      />
     </div>
   );
 };

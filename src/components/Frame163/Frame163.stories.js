@@ -9,6 +9,6 @@ export const Default = {
   args: {
     className: {},
     iconfinderSocial:
-      "/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-1.svg",
+      "/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-3.svg",
   },
 };

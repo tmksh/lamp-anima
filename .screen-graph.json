@@ -7,77 +7,157 @@
         "/*",
         "/topu12504u12442u12540u12471u12441"
       ],
-      "dataModelId": "4067:2779",
+      "dataModelId": "4058:2143",
       "isRoot": true
     },
     {
       "id": "src/screens/Screen/Screen.jsx",
       "label": "Screen",
       "routes": [
-        "/u21463u35611u12398u27969u12428"
+        "/u32946u25104u12459u12522u12461u12517u12521u12512"
       ],
-      "dataModelId": "4067:3059"
-    },
-    {
-      "id": "src/screens/Lamp/Lamp.jsx",
-      "label": "Lamp",
-      "routes": [
-        "/lampu12398u39749u21147"
-      ],
-      "dataModelId": "4067:2966"
+      "dataModelId": "4058:2322"
     },
     {
       "id": "src/screens/ScreenScreen/ScreenScreen.jsx",
       "label": "ScreenScreen",
       "routes": [
-        "/u32946u25104u12459u12522u12461u12517u12521u12512"
+        "/u12424u12367u12354u12427u36074u21839"
       ],
-      "dataModelId": "4067:2918"
+      "dataModelId": "4058:2618"
     },
     {
       "id": "src/screens/ScreenWrapper/ScreenWrapper.jsx",
       "label": "ScreenWrapper",
       "routes": [
-        "/u12424u12367u12354u12427u36074u21839"
+        "/u21463u35611u12398u27969u12428"
       ],
-      "dataModelId": "4067:3069"
+      "dataModelId": "4058:2575"
     },
     {
-      "id": "src/screens/Screen5/Screen5.jsx",
-      "label": "Screen5",
+      "id": "src/screens/Screen4/Screen4.jsx",
+      "label": "Screen4",
       "routes": [
         "/u35611u24107u32057u20171"
       ],
-      "dataModelId": "4067:2977"
+      "dataModelId": "4058:2503"
+    },
+    {
+      "id": "src/screens/Lamp/Lamp.jsx",
+      "label": "Lamp",
+      "routes": [
+        "/lampu12398u32057u20171"
+      ],
+      "dataModelId": "4058:2405"
     }
   ],
   "edges": [
     {
-      "id": "src/screens/Top/sections/FrameWrapper/FrameWrapper.jsx:189:12-to-src/screens/ScreenScreen/ScreenScreen.jsx",
-      "source": "src/screens/Top/Top.jsx",
-      "target": "src/screens/ScreenScreen/ScreenScreen.jsx",
-      "data": {
-        "viaRoute": "/u32946u25104u12459u12522u12461u12517u12521u12512",
-        "trigger": {
-          "element": "<ConcreteComponentNode\n              className=\"!flex-[0_0_auto] !left-[unset] !top-[unset]\"\n              text=\"プラン詳細はこちら\"\n              to=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n            />",
-          "line": 189,
-          "endLine": 193,
-          "column": 12,
-          "endColumn": 14,
-          "sourceFile": "src/screens/Top/sections/FrameWrapper/FrameWrapper.jsx"
-        }
-      }
-    },
-    {
-      "id": "src/screens/Top/sections/FrameWrapper/FrameWrapper.jsx:227:8-to-src/screens/Lamp/Lamp.jsx",
+      "id": "src/screens/Top/sections/Frame/Frame.jsx:7:6-to-src/screens/Lamp/Lamp.jsx",
       "source": "src/screens/Top/Top.jsx",
       "target": "src/screens/Lamp/Lamp.jsx",
       "data": {
-        "viaRoute": "/lampu12398u39749u21147",
+        "viaRoute": "/lampu12398u32057u20171",
         "trigger": {
-          "element": "<ConcreteComponentNode\n          className=\"!flex-[0_0_auto] !left-[unset] !top-[unset]\"\n          text=\"詳しくはこちら\"\n          to=\"/lampu12398u39749u21147\"\n        />",
-          "line": 227,
-          "endLine": 231,
+          "element": "<Frame49\n        className=\"!z-[2]\"\n        to=\"/lampu12398u32057u20171\"\n        to1=\"/u35611u24107u32057u20171\"\n        to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n        to3=\"/u12424u12367u12354u12427u36074u21839\"\n        to4=\"/u21463u35611u12398u27969u12428\"\n        to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      />",
+          "line": 7,
+          "endLine": 15,
+          "column": 6,
+          "endColumn": 8,
+          "sourceFile": "src/screens/Top/sections/Frame/Frame.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Top/sections/Frame/Frame.jsx:7:6-to-src/screens/Screen4/Screen4.jsx",
+      "source": "src/screens/Top/Top.jsx",
+      "target": "src/screens/Screen4/Screen4.jsx",
+      "data": {
+        "viaRoute": "/u35611u24107u32057u20171",
+        "trigger": {
+          "element": "<Frame49\n        className=\"!z-[2]\"\n        to=\"/lampu12398u32057u20171\"\n        to1=\"/u35611u24107u32057u20171\"\n        to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n        to3=\"/u12424u12367u12354u12427u36074u21839\"\n        to4=\"/u21463u35611u12398u27969u12428\"\n        to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      />",
+          "line": 7,
+          "endLine": 15,
+          "column": 6,
+          "endColumn": 8,
+          "sourceFile": "src/screens/Top/sections/Frame/Frame.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Top/sections/Frame/Frame.jsx:7:6-to-src/screens/Screen/Screen.jsx",
+      "source": "src/screens/Top/Top.jsx",
+      "target": "src/screens/Screen/Screen.jsx",
+      "data": {
+        "viaRoute": "/u32946u25104u12459u12522u12461u12517u12521u12512",
+        "trigger": {
+          "element": "<Frame49\n        className=\"!z-[2]\"\n        to=\"/lampu12398u32057u20171\"\n        to1=\"/u35611u24107u32057u20171\"\n        to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n        to3=\"/u12424u12367u12354u12427u36074u21839\"\n        to4=\"/u21463u35611u12398u27969u12428\"\n        to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      />",
+          "line": 7,
+          "endLine": 15,
+          "column": 6,
+          "endColumn": 8,
+          "sourceFile": "src/screens/Top/sections/Frame/Frame.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Top/sections/Frame/Frame.jsx:7:6-to-src/screens/ScreenScreen/ScreenScreen.jsx",
+      "source": "src/screens/Top/Top.jsx",
+      "target": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "data": {
+        "viaRoute": "/u12424u12367u12354u12427u36074u21839",
+        "trigger": {
+          "element": "<Frame49\n        className=\"!z-[2]\"\n        to=\"/lampu12398u32057u20171\"\n        to1=\"/u35611u24107u32057u20171\"\n        to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n        to3=\"/u12424u12367u12354u12427u36074u21839\"\n        to4=\"/u21463u35611u12398u27969u12428\"\n        to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      />",
+          "line": 7,
+          "endLine": 15,
+          "column": 6,
+          "endColumn": 8,
+          "sourceFile": "src/screens/Top/sections/Frame/Frame.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Top/sections/Frame/Frame.jsx:7:6-to-src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "source": "src/screens/Top/Top.jsx",
+      "target": "src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "data": {
+        "viaRoute": "/u21463u35611u12398u27969u12428",
+        "trigger": {
+          "element": "<Frame49\n        className=\"!z-[2]\"\n        to=\"/lampu12398u32057u20171\"\n        to1=\"/u35611u24107u32057u20171\"\n        to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n        to3=\"/u12424u12367u12354u12427u36074u21839\"\n        to4=\"/u21463u35611u12398u27969u12428\"\n        to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      />",
+          "line": 7,
+          "endLine": 15,
+          "column": 6,
+          "endColumn": 8,
+          "sourceFile": "src/screens/Top/sections/Frame/Frame.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Top/sections/Frame/Frame.jsx:7:6-to-src/screens/Screen/Screen.jsx",
+      "source": "src/screens/Top/Top.jsx",
+      "target": "src/screens/Screen/Screen.jsx",
+      "data": {
+        "viaRoute": "/u32946u25104u12459u12522u12461u12517u12521u12512",
+        "trigger": {
+          "element": "<Frame49\n        className=\"!z-[2]\"\n        to=\"/lampu12398u32057u20171\"\n        to1=\"/u35611u24107u32057u20171\"\n        to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n        to3=\"/u12424u12367u12354u12427u36074u21839\"\n        to4=\"/u21463u35611u12398u27969u12428\"\n        to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      />",
+          "line": 7,
+          "endLine": 15,
+          "column": 6,
+          "endColumn": 8,
+          "sourceFile": "src/screens/Top/sections/Frame/Frame.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Top/sections/FrameWrapper/FrameWrapper.jsx:186:8-to-src/screens/Screen/Screen.jsx",
+      "source": "src/screens/Top/Top.jsx",
+      "target": "src/screens/Screen/Screen.jsx",
+      "data": {
+        "viaRoute": "/u32946u25104u12459u12522u12461u12517u12521u12512",
+        "trigger": {
+          "element": "<ConcreteComponentNode\n          className=\"!flex-[0_0_auto] !left-[unset] !top-[unset]\"\n          text=\"プラン詳細はこちら\"\n          to=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n        />",
+          "line": 186,
+          "endLine": 190,
           "column": 8,
           "endColumn": 10,
           "sourceFile": "src/screens/Top/sections/FrameWrapper/FrameWrapper.jsx"
@@ -85,82 +165,610 @@
       }
     },
     {
-      "id": "src/screens/Top/sections/DivWrapper/DivWrapper.jsx:30:8-to-src/screens/Screen5/Screen5.jsx",
+      "id": "src/screens/Top/sections/DivWrapper/DivWrapper.jsx:45:6-to-src/screens/Lamp/Lamp.jsx",
       "source": "src/screens/Top/Top.jsx",
-      "target": "src/screens/Screen5/Screen5.jsx",
+      "target": "src/screens/Lamp/Lamp.jsx",
       "data": {
-        "viaRoute": "/u35611u24107u32057u20171",
+        "viaRoute": "/lampu12398u32057u20171",
         "trigger": {
-          "element": "<ConcreteComponentNode\n          className=\"!flex-[0_0_auto] !left-[unset] !top-[unset]\"\n          text=\"インストラクター紹介はこちら\"\n          to=\"/u35611u24107u32057u20171\"\n        />",
-          "line": 30,
-          "endLine": 34,
-          "column": 8,
-          "endColumn": 10,
+          "element": "<ConcreteComponentNode\n        className=\"!flex-[0_0_auto] !left-[unset] !top-[unset]\"\n        text=\"詳しくはこちら\"\n        to=\"/lampu12398u32057u20171\"\n      />",
+          "line": 45,
+          "endLine": 49,
+          "column": 6,
+          "endColumn": 8,
           "sourceFile": "src/screens/Top/sections/DivWrapper/DivWrapper.jsx"
         }
       }
     },
     {
-      "id": "src/screens/Top/sections/Frame184Wrapper/Frame184Wrapper.jsx:6:4-to-src/screens/Lamp/Lamp.jsx",
+      "id": "src/screens/Top/sections/Div/Div.jsx:43:8-to-src/screens/Screen4/Screen4.jsx",
       "source": "src/screens/Top/Top.jsx",
-      "target": "src/screens/Lamp/Lamp.jsx",
-      "data": {
-        "viaRoute": "/lampu12398u39749u21147",
-        "trigger": {
-          "element": "<Frame184\n      className=\"!flex-[0_0_auto] !left-[unset] !top-[unset]\"\n      element=\"/img/2024-09-08-1-46-17-1-1.png\"\n      elementClassName=\"!mr-[unset] !w-[375px]\"\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-2.svg\"\n      logo=\"/img/logo-1-1.svg\"\n      to=\"/lampu12398u39749u21147\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u12424u12367u12354u12427u36074u21839\"\n      to3=\"/u21463u35611u12398u27969u12428\"\n    />",
-          "line": 6,
-          "endLine": 16,
-          "column": 4,
-          "endColumn": 6,
-          "sourceFile": "src/screens/Top/sections/Frame184Wrapper/Frame184Wrapper.jsx"
-        }
-      }
-    },
-    {
-      "id": "src/screens/Top/sections/Frame184Wrapper/Frame184Wrapper.jsx:6:4-to-src/screens/Screen5/Screen5.jsx",
-      "source": "src/screens/Top/Top.jsx",
-      "target": "src/screens/Screen5/Screen5.jsx",
+      "target": "src/screens/Screen4/Screen4.jsx",
       "data": {
         "viaRoute": "/u35611u24107u32057u20171",
         "trigger": {
-          "element": "<Frame184\n      className=\"!flex-[0_0_auto] !left-[unset] !top-[unset]\"\n      element=\"/img/2024-09-08-1-46-17-1-1.png\"\n      elementClassName=\"!mr-[unset] !w-[375px]\"\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-2.svg\"\n      logo=\"/img/logo-1-1.svg\"\n      to=\"/lampu12398u39749u21147\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u12424u12367u12354u12427u36074u21839\"\n      to3=\"/u21463u35611u12398u27969u12428\"\n    />",
-          "line": 6,
-          "endLine": 16,
-          "column": 4,
-          "endColumn": 6,
-          "sourceFile": "src/screens/Top/sections/Frame184Wrapper/Frame184Wrapper.jsx"
+          "element": "<ConcreteComponentNode\n          className=\"!flex-[0_0_auto] !left-[unset] !top-[unset]\"\n          text=\"インストラクター紹介はこちら\"\n          to=\"/u35611u24107u32057u20171\"\n        />",
+          "line": 43,
+          "endLine": 47,
+          "column": 8,
+          "endColumn": 10,
+          "sourceFile": "src/screens/Top/sections/Div/Div.jsx"
         }
       }
     },
     {
-      "id": "src/screens/Top/sections/Frame184Wrapper/Frame184Wrapper.jsx:6:4-to-src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "id": "src/screens/Top/sections/Frame182Wrapper/Frame182Wrapper.jsx:6:4-to-src/screens/Lamp/Lamp.jsx",
       "source": "src/screens/Top/Top.jsx",
-      "target": "src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "target": "src/screens/Lamp/Lamp.jsx",
       "data": {
-        "viaRoute": "/u12424u12367u12354u12427u36074u21839",
+        "viaRoute": "/lampu12398u32057u20171",
         "trigger": {
-          "element": "<Frame184\n      className=\"!flex-[0_0_auto] !left-[unset] !top-[unset]\"\n      element=\"/img/2024-09-08-1-46-17-1-1.png\"\n      elementClassName=\"!mr-[unset] !w-[375px]\"\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-2.svg\"\n      logo=\"/img/logo-1-1.svg\"\n      to=\"/lampu12398u39749u21147\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u12424u12367u12354u12427u36074u21839\"\n      to3=\"/u21463u35611u12398u27969u12428\"\n    />",
+          "element": "<Frame182\n      className=\"!flex-[0_0_auto] !left-[unset] !top-[unset]\"\n      frame16IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-5.svg\"\n      img=\"/img/path1518-6.svg\"\n      logo=\"/img/logo-1-1.svg\"\n      path=\"/img/path1462-6.svg\"\n      path1=\"/img/path1732-2.svg\"\n      path2=\"/img/path1074-6.svg\"\n      path3=\"/img/path964-6.svg\"\n      path4=\"/img/path1620-6.svg\"\n      path5=\"/img/path1582-6.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u21463u35611u12398u27969u12428\"\n      to4=\"/u12424u12367u12354u12427u36074u21839\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
           "line": 6,
-          "endLine": 16,
+          "endLine": 23,
           "column": 4,
           "endColumn": 6,
-          "sourceFile": "src/screens/Top/sections/Frame184Wrapper/Frame184Wrapper.jsx"
+          "sourceFile": "src/screens/Top/sections/Frame182Wrapper/Frame182Wrapper.jsx"
         }
       }
     },
     {
-      "id": "src/screens/Top/sections/Frame184Wrapper/Frame184Wrapper.jsx:6:4-to-src/screens/Screen/Screen.jsx",
+      "id": "src/screens/Top/sections/Frame182Wrapper/Frame182Wrapper.jsx:6:4-to-src/screens/Screen4/Screen4.jsx",
+      "source": "src/screens/Top/Top.jsx",
+      "target": "src/screens/Screen4/Screen4.jsx",
+      "data": {
+        "viaRoute": "/u35611u24107u32057u20171",
+        "trigger": {
+          "element": "<Frame182\n      className=\"!flex-[0_0_auto] !left-[unset] !top-[unset]\"\n      frame16IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-5.svg\"\n      img=\"/img/path1518-6.svg\"\n      logo=\"/img/logo-1-1.svg\"\n      path=\"/img/path1462-6.svg\"\n      path1=\"/img/path1732-2.svg\"\n      path2=\"/img/path1074-6.svg\"\n      path3=\"/img/path964-6.svg\"\n      path4=\"/img/path1620-6.svg\"\n      path5=\"/img/path1582-6.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u21463u35611u12398u27969u12428\"\n      to4=\"/u12424u12367u12354u12427u36074u21839\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 23,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Top/sections/Frame182Wrapper/Frame182Wrapper.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Top/sections/Frame182Wrapper/Frame182Wrapper.jsx:6:4-to-src/screens/Screen/Screen.jsx",
       "source": "src/screens/Top/Top.jsx",
       "target": "src/screens/Screen/Screen.jsx",
       "data": {
-        "viaRoute": "/u21463u35611u12398u27969u12428",
+        "viaRoute": "/u32946u25104u12459u12522u12461u12517u12521u12512",
         "trigger": {
-          "element": "<Frame184\n      className=\"!flex-[0_0_auto] !left-[unset] !top-[unset]\"\n      element=\"/img/2024-09-08-1-46-17-1-1.png\"\n      elementClassName=\"!mr-[unset] !w-[375px]\"\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-2.svg\"\n      logo=\"/img/logo-1-1.svg\"\n      to=\"/lampu12398u39749u21147\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u12424u12367u12354u12427u36074u21839\"\n      to3=\"/u21463u35611u12398u27969u12428\"\n    />",
+          "element": "<Frame182\n      className=\"!flex-[0_0_auto] !left-[unset] !top-[unset]\"\n      frame16IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-5.svg\"\n      img=\"/img/path1518-6.svg\"\n      logo=\"/img/logo-1-1.svg\"\n      path=\"/img/path1462-6.svg\"\n      path1=\"/img/path1732-2.svg\"\n      path2=\"/img/path1074-6.svg\"\n      path3=\"/img/path964-6.svg\"\n      path4=\"/img/path1620-6.svg\"\n      path5=\"/img/path1582-6.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u21463u35611u12398u27969u12428\"\n      to4=\"/u12424u12367u12354u12427u36074u21839\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
           "line": 6,
-          "endLine": 16,
+          "endLine": 23,
           "column": 4,
           "endColumn": 6,
-          "sourceFile": "src/screens/Top/sections/Frame184Wrapper/Frame184Wrapper.jsx"
+          "sourceFile": "src/screens/Top/sections/Frame182Wrapper/Frame182Wrapper.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Top/sections/Frame182Wrapper/Frame182Wrapper.jsx:6:4-to-src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "source": "src/screens/Top/Top.jsx",
+      "target": "src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "data": {
+        "viaRoute": "/u21463u35611u12398u27969u12428",
+        "trigger": {
+          "element": "<Frame182\n      className=\"!flex-[0_0_auto] !left-[unset] !top-[unset]\"\n      frame16IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-5.svg\"\n      img=\"/img/path1518-6.svg\"\n      logo=\"/img/logo-1-1.svg\"\n      path=\"/img/path1462-6.svg\"\n      path1=\"/img/path1732-2.svg\"\n      path2=\"/img/path1074-6.svg\"\n      path3=\"/img/path964-6.svg\"\n      path4=\"/img/path1620-6.svg\"\n      path5=\"/img/path1582-6.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u21463u35611u12398u27969u12428\"\n      to4=\"/u12424u12367u12354u12427u36074u21839\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 23,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Top/sections/Frame182Wrapper/Frame182Wrapper.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Top/sections/Frame182Wrapper/Frame182Wrapper.jsx:6:4-to-src/screens/ScreenScreen/ScreenScreen.jsx",
+      "source": "src/screens/Top/Top.jsx",
+      "target": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "data": {
+        "viaRoute": "/u12424u12367u12354u12427u36074u21839",
+        "trigger": {
+          "element": "<Frame182\n      className=\"!flex-[0_0_auto] !left-[unset] !top-[unset]\"\n      frame16IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-5.svg\"\n      img=\"/img/path1518-6.svg\"\n      logo=\"/img/logo-1-1.svg\"\n      path=\"/img/path1462-6.svg\"\n      path1=\"/img/path1732-2.svg\"\n      path2=\"/img/path1074-6.svg\"\n      path3=\"/img/path964-6.svg\"\n      path4=\"/img/path1620-6.svg\"\n      path5=\"/img/path1582-6.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u21463u35611u12398u27969u12428\"\n      to4=\"/u12424u12367u12354u12427u36074u21839\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 23,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Top/sections/Frame182Wrapper/Frame182Wrapper.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Top/sections/Frame182Wrapper/Frame182Wrapper.jsx:6:4-to-src/screens/Screen/Screen.jsx",
+      "source": "src/screens/Top/Top.jsx",
+      "target": "src/screens/Screen/Screen.jsx",
+      "data": {
+        "viaRoute": "/u32946u25104u12459u12522u12461u12517u12521u12512",
+        "trigger": {
+          "element": "<Frame182\n      className=\"!flex-[0_0_auto] !left-[unset] !top-[unset]\"\n      frame16IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-5.svg\"\n      img=\"/img/path1518-6.svg\"\n      logo=\"/img/logo-1-1.svg\"\n      path=\"/img/path1462-6.svg\"\n      path1=\"/img/path1732-2.svg\"\n      path2=\"/img/path1074-6.svg\"\n      path3=\"/img/path964-6.svg\"\n      path4=\"/img/path1620-6.svg\"\n      path5=\"/img/path1582-6.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u21463u35611u12398u27969u12428\"\n      to4=\"/u12424u12367u12354u12427u36074u21839\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 23,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Top/sections/Frame182Wrapper/Frame182Wrapper.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen/sections/Frame49Wrapper/Frame49Wrapper.jsx:6:4-to-src/screens/Lamp/Lamp.jsx",
+      "source": "src/screens/Screen/Screen.jsx",
+      "target": "src/screens/Lamp/Lamp.jsx",
+      "data": {
+        "viaRoute": "/lampu12398u32057u20171",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-6.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Screen/sections/Frame49Wrapper/Frame49Wrapper.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen/sections/Frame49Wrapper/Frame49Wrapper.jsx:6:4-to-src/screens/Screen4/Screen4.jsx",
+      "source": "src/screens/Screen/Screen.jsx",
+      "target": "src/screens/Screen4/Screen4.jsx",
+      "data": {
+        "viaRoute": "/u35611u24107u32057u20171",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-6.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Screen/sections/Frame49Wrapper/Frame49Wrapper.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen/sections/Frame49Wrapper/Frame49Wrapper.jsx:6:4-to-src/screens/Screen/Screen.jsx",
+      "source": "src/screens/Screen/Screen.jsx",
+      "target": "src/screens/Screen/Screen.jsx",
+      "data": {
+        "viaRoute": "/u32946u25104u12459u12522u12461u12517u12521u12512",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-6.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Screen/sections/Frame49Wrapper/Frame49Wrapper.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen/sections/Frame49Wrapper/Frame49Wrapper.jsx:6:4-to-src/screens/ScreenScreen/ScreenScreen.jsx",
+      "source": "src/screens/Screen/Screen.jsx",
+      "target": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "data": {
+        "viaRoute": "/u12424u12367u12354u12427u36074u21839",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-6.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Screen/sections/Frame49Wrapper/Frame49Wrapper.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen/sections/Frame49Wrapper/Frame49Wrapper.jsx:6:4-to-src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "source": "src/screens/Screen/Screen.jsx",
+      "target": "src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "data": {
+        "viaRoute": "/u21463u35611u12398u27969u12428",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-6.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Screen/sections/Frame49Wrapper/Frame49Wrapper.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen/sections/Frame49Wrapper/Frame49Wrapper.jsx:6:4-to-src/screens/Screen/Screen.jsx",
+      "source": "src/screens/Screen/Screen.jsx",
+      "target": "src/screens/Screen/Screen.jsx",
+      "data": {
+        "viaRoute": "/u32946u25104u12459u12522u12461u12517u12521u12512",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-6.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Screen/sections/Frame49Wrapper/Frame49Wrapper.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ScreenScreen/sections/Frame2/Frame2.jsx:6:4-to-src/screens/Lamp/Lamp.jsx",
+      "source": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "target": "src/screens/Lamp/Lamp.jsx",
+      "data": {
+        "viaRoute": "/lampu12398u32057u20171",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-8.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/ScreenScreen/sections/Frame2/Frame2.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ScreenScreen/sections/Frame2/Frame2.jsx:6:4-to-src/screens/Screen4/Screen4.jsx",
+      "source": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "target": "src/screens/Screen4/Screen4.jsx",
+      "data": {
+        "viaRoute": "/u35611u24107u32057u20171",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-8.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/ScreenScreen/sections/Frame2/Frame2.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ScreenScreen/sections/Frame2/Frame2.jsx:6:4-to-src/screens/Screen/Screen.jsx",
+      "source": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "target": "src/screens/Screen/Screen.jsx",
+      "data": {
+        "viaRoute": "/u32946u25104u12459u12522u12461u12517u12521u12512",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-8.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/ScreenScreen/sections/Frame2/Frame2.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ScreenScreen/sections/Frame2/Frame2.jsx:6:4-to-src/screens/ScreenScreen/ScreenScreen.jsx",
+      "source": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "target": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "data": {
+        "viaRoute": "/u12424u12367u12354u12427u36074u21839",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-8.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/ScreenScreen/sections/Frame2/Frame2.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ScreenScreen/sections/Frame2/Frame2.jsx:6:4-to-src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "source": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "target": "src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "data": {
+        "viaRoute": "/u21463u35611u12398u27969u12428",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-8.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/ScreenScreen/sections/Frame2/Frame2.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ScreenScreen/sections/Frame2/Frame2.jsx:6:4-to-src/screens/Screen/Screen.jsx",
+      "source": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "target": "src/screens/Screen/Screen.jsx",
+      "data": {
+        "viaRoute": "/u32946u25104u12459u12522u12461u12517u12521u12512",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-8.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/ScreenScreen/sections/Frame2/Frame2.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ScreenWrapper/sections/Frame5/Frame5.jsx:6:4-to-src/screens/Lamp/Lamp.jsx",
+      "source": "src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "target": "src/screens/Lamp/Lamp.jsx",
+      "data": {
+        "viaRoute": "/lampu12398u32057u20171",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-10.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/ScreenWrapper/sections/Frame5/Frame5.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ScreenWrapper/sections/Frame5/Frame5.jsx:6:4-to-src/screens/Screen4/Screen4.jsx",
+      "source": "src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "target": "src/screens/Screen4/Screen4.jsx",
+      "data": {
+        "viaRoute": "/u35611u24107u32057u20171",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-10.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/ScreenWrapper/sections/Frame5/Frame5.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ScreenWrapper/sections/Frame5/Frame5.jsx:6:4-to-src/screens/Screen/Screen.jsx",
+      "source": "src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "target": "src/screens/Screen/Screen.jsx",
+      "data": {
+        "viaRoute": "/u32946u25104u12459u12522u12461u12517u12521u12512",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-10.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/ScreenWrapper/sections/Frame5/Frame5.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ScreenWrapper/sections/Frame5/Frame5.jsx:6:4-to-src/screens/ScreenScreen/ScreenScreen.jsx",
+      "source": "src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "target": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "data": {
+        "viaRoute": "/u12424u12367u12354u12427u36074u21839",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-10.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/ScreenWrapper/sections/Frame5/Frame5.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ScreenWrapper/sections/Frame5/Frame5.jsx:6:4-to-src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "source": "src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "target": "src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "data": {
+        "viaRoute": "/u21463u35611u12398u27969u12428",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-10.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/ScreenWrapper/sections/Frame5/Frame5.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/ScreenWrapper/sections/Frame5/Frame5.jsx:6:4-to-src/screens/Screen/Screen.jsx",
+      "source": "src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "target": "src/screens/Screen/Screen.jsx",
+      "data": {
+        "viaRoute": "/u32946u25104u12459u12522u12461u12517u12521u12512",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-10.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/ScreenWrapper/sections/Frame5/Frame5.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen4/sections/Frame8/Frame8.jsx:6:4-to-src/screens/Lamp/Lamp.jsx",
+      "source": "src/screens/Screen4/Screen4.jsx",
+      "target": "src/screens/Lamp/Lamp.jsx",
+      "data": {
+        "viaRoute": "/lampu12398u32057u20171",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-12.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Screen4/sections/Frame8/Frame8.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen4/sections/Frame8/Frame8.jsx:6:4-to-src/screens/Screen4/Screen4.jsx",
+      "source": "src/screens/Screen4/Screen4.jsx",
+      "target": "src/screens/Screen4/Screen4.jsx",
+      "data": {
+        "viaRoute": "/u35611u24107u32057u20171",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-12.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Screen4/sections/Frame8/Frame8.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen4/sections/Frame8/Frame8.jsx:6:4-to-src/screens/Screen/Screen.jsx",
+      "source": "src/screens/Screen4/Screen4.jsx",
+      "target": "src/screens/Screen/Screen.jsx",
+      "data": {
+        "viaRoute": "/u32946u25104u12459u12522u12461u12517u12521u12512",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-12.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Screen4/sections/Frame8/Frame8.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen4/sections/Frame8/Frame8.jsx:6:4-to-src/screens/ScreenScreen/ScreenScreen.jsx",
+      "source": "src/screens/Screen4/Screen4.jsx",
+      "target": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "data": {
+        "viaRoute": "/u12424u12367u12354u12427u36074u21839",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-12.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Screen4/sections/Frame8/Frame8.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen4/sections/Frame8/Frame8.jsx:6:4-to-src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "source": "src/screens/Screen4/Screen4.jsx",
+      "target": "src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "data": {
+        "viaRoute": "/u21463u35611u12398u27969u12428",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-12.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Screen4/sections/Frame8/Frame8.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Screen4/sections/Frame8/Frame8.jsx:6:4-to-src/screens/Screen/Screen.jsx",
+      "source": "src/screens/Screen4/Screen4.jsx",
+      "target": "src/screens/Screen/Screen.jsx",
+      "data": {
+        "viaRoute": "/u32946u25104u12459u12522u12461u12517u12521u12512",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-12.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Screen4/sections/Frame8/Frame8.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Lamp/sections/Frame12/Frame12.jsx:6:4-to-src/screens/Lamp/Lamp.jsx",
+      "source": "src/screens/Lamp/Lamp.jsx",
+      "target": "src/screens/Lamp/Lamp.jsx",
+      "data": {
+        "viaRoute": "/lampu12398u32057u20171",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-14.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Lamp/sections/Frame12/Frame12.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Lamp/sections/Frame12/Frame12.jsx:6:4-to-src/screens/Screen4/Screen4.jsx",
+      "source": "src/screens/Lamp/Lamp.jsx",
+      "target": "src/screens/Screen4/Screen4.jsx",
+      "data": {
+        "viaRoute": "/u35611u24107u32057u20171",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-14.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Lamp/sections/Frame12/Frame12.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Lamp/sections/Frame12/Frame12.jsx:6:4-to-src/screens/Screen/Screen.jsx",
+      "source": "src/screens/Lamp/Lamp.jsx",
+      "target": "src/screens/Screen/Screen.jsx",
+      "data": {
+        "viaRoute": "/u32946u25104u12459u12522u12461u12517u12521u12512",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-14.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Lamp/sections/Frame12/Frame12.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Lamp/sections/Frame12/Frame12.jsx:6:4-to-src/screens/ScreenScreen/ScreenScreen.jsx",
+      "source": "src/screens/Lamp/Lamp.jsx",
+      "target": "src/screens/ScreenScreen/ScreenScreen.jsx",
+      "data": {
+        "viaRoute": "/u12424u12367u12354u12427u36074u21839",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-14.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Lamp/sections/Frame12/Frame12.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Lamp/sections/Frame12/Frame12.jsx:6:4-to-src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "source": "src/screens/Lamp/Lamp.jsx",
+      "target": "src/screens/ScreenWrapper/ScreenWrapper.jsx",
+      "data": {
+        "viaRoute": "/u21463u35611u12398u27969u12428",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-14.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Lamp/sections/Frame12/Frame12.jsx"
+        }
+      }
+    },
+    {
+      "id": "src/screens/Lamp/sections/Frame12/Frame12.jsx:6:4-to-src/screens/Screen/Screen.jsx",
+      "source": "src/screens/Lamp/Lamp.jsx",
+      "target": "src/screens/Screen/Screen.jsx",
+      "data": {
+        "viaRoute": "/u32946u25104u12459u12522u12461u12517u12521u12512",
+        "trigger": {
+          "element": "<Frame49\n      frame163IconfinderSocial=\"/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-14.svg\"\n      to=\"/lampu12398u32057u20171\"\n      to1=\"/u35611u24107u32057u20171\"\n      to2=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n      to3=\"/u12424u12367u12354u12427u36074u21839\"\n      to4=\"/u21463u35611u12398u27969u12428\"\n      to5=\"/u32946u25104u12459u12522u12461u12517u12521u12512\"\n    />",
+          "line": 6,
+          "endLine": 14,
+          "column": 4,
+          "endColumn": 6,
+          "sourceFile": "src/screens/Lamp/sections/Frame12/Frame12.jsx"
         }
       }
     }

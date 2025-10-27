@@ -8,11 +8,11 @@ import React from "react";
 
 export const Frame163 = ({
   className,
-  iconfinderSocial = "/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-1.svg",
+  iconfinderSocial = "/img/iconfinder-social-media-applications-5line-4102577-113787-1-2-3.svg",
 }) => {
   return (
     <div
-      className={`inline-flex h-[42px] items-center justify-center gap-[5px] px-[15px] py-0 relative top-[1436px] left-[825px] bg-[#06c755] rounded-[5px] ${className}`}
+      className={`inline-flex h-[55px] items-center justify-center gap-2.5 px-[15px] py-0 relative top-[244px] left-[3272px] bg-[#06c755] rounded-[5px] ${className}`}
     >
       <img
         className="relative w-10 h-10"
@@ -20,7 +20,7 @@ export const Frame163 = ({
         src={iconfinderSocial}
       />
 
-      <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-semibold text-white text-lg text-center tracking-[0] leading-[normal]">
+      <div className="relative w-fit [font-family:'Shippori_Mincho',Helvetica] font-semibold text-white text-base text-center tracking-[0] leading-[normal]">
         LINE登録はこちら
       </div>
     </div>
