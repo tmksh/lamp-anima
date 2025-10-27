@@ -193,11 +193,13 @@ export const Frame182 = ({
 
           <div className="flex w-full items-center gap-[268px] px-[90px] py-10 relative flex-[0_0_auto]">
             <div className="flex flex-col w-[264px] items-start gap-5 relative">
-              <img
-                className="relative w-[150px] h-[80.93px]"
-                alt="Logo"
-                src={logo}
-              />
+              <Link to="/" className="cursor-pointer">
+                <img
+                  className="relative w-[150px] h-[80.93px]"
+                  alt="Logo"
+                  src={logo}
+                />
+              </Link>
 
               <div className="flex flex-col items-start gap-2.5 relative self-stretch w-full flex-[0_0_auto]">
                 <div className="relative self-stretch mt-[-1.00px] [font-family:'Shippori_Mincho',Helvetica] font-semibold text-[#111111] text-lg tracking-[0] leading-[normal]">

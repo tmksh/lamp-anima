@@ -22,11 +22,13 @@ export const Frame49 = ({
     <div
       className={`flex w-full h-[77px] items-center justify-between px-[30px] py-1.5 relative bg-[#ffffff66] ${className}`}
     >
-      <img
-        className="relative w-[100px] h-[53.95px] z-[1]"
-        alt="Group"
-        src="/img/group.png"
-      />
+      <Link to="/" className="cursor-pointer z-[1]">
+        <img
+          className="relative w-[100px] h-[53.95px]"
+          alt="Group"
+          src="/img/group.png"
+        />
+      </Link>
 
       <div className="inline-flex items-center gap-4 relative flex-[0_0_auto] z-0">
         <div className="inline-flex h-[25px] items-start gap-5 relative flex-[0_0_auto]">
