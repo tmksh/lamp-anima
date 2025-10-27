@@ -1,5 +1,5 @@
 import React from "react";
-import { Frame68 } from "../../../../sp/components/Frame68";
+import { Frame68 } from "../../../../components/Frame68";
 
 export const SectionComponentNode = () => {
   return (

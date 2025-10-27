@@ -1,6 +1,6 @@
 import React from "react";
-import { ConcreteComponentNode } from "../../../../sp/components/ConcreteComponentNode";
-import { Group } from "../../../../sp/components/Group";
+import { ConcreteComponentNode } from "../../../../components/ConcreteComponentNode";
+import { Group } from "../../../../components/Group";
 
 export const DivWrapper = () => {
   return (

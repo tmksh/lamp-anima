@@ -1,5 +1,5 @@
 import React from "react";
-import { Frame50 } from "../../sp/components/Frame50";
+import { Frame50 } from "../../components/Frame50";
 import { Div } from "./sections/Div";
 import { DivWrapper } from "./sections/DivWrapper";
 import { Frame } from "./sections/Frame";

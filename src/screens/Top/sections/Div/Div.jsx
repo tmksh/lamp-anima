@@ -1,7 +1,7 @@
 import React from "react";
-import { ConcreteComponentNode } from "../../../../sp/components/ConcreteComponentNode";
-import { Frame25 } from "../../../../sp/components/Frame25";
-import { Group } from "../../../../sp/components/Group";
+import { ConcreteComponentNode } from "../../../../components/ConcreteComponentNode";
+import { Frame25 } from "../../../../components/Frame25";
+import { Group } from "../../../../components/Group";
 
 export const Div = () => {
   return (

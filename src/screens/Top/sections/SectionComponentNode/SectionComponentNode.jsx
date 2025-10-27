@@ -1,6 +1,6 @@
 import React from "react";
-import { ConcreteComponentNode } from "../../../../sp/components/ConcreteComponentNode";
-import { Frame22 } from "../../../../sp/components/Frame22";
+import { ConcreteComponentNode } from "../../../../components/ConcreteComponentNode";
+import { Frame22 } from "../../../../components/Frame22";
 
 export const SectionComponentNode = () => {
   return (

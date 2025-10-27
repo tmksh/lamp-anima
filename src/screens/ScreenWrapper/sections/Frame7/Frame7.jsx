@@ -1,5 +1,5 @@
 import React from "react";
-import { Frame141 } from "../../../../sp/components/Frame141";
+import { Frame141 } from "../../../../components/Frame141";
 
 export const Frame7 = () => {
   return (
