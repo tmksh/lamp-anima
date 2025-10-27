@@ -1,19 +1,17 @@
 import React from "react";
-import { Frame12 } from "./sections/Frame12";
-import { Frame13 } from "./sections/Frame13";
-import { Frame14 } from "./sections/Frame14";
-import { Group2 } from "./sections/Group2";
+import { Frame1 } from "./sections/Frame1";
+import { Frame2 } from "./sections/Frame2";
+import { Frame3 } from "./sections/Frame3";
 
 export const Lamp = () => {
   return (
     <div
       className="flex flex-col items-start relative bg-[#fcfbf9]"
-      data-model-id="4058:2405"
+      data-model-id="4067:2966"
     >
-      <Frame12 />
-      <Group2 />
-      <Frame13 />
-      <Frame14 />
+      <Frame1 />
+      <Frame2 />
+      <Frame3 />
     </div>
   );
 };

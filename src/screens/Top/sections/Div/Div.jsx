@@ -1,51 +1,54 @@
 import React from "react";
 import { ConcreteComponentNode } from "../../../../components/ConcreteComponentNode";
+import { Frame25 } from "../../../../components/Frame25";
+import { Group } from "../../../../components/Group";
 
 export const Div = () => {
   return (
-    <div className="flex w-[1280px] h-[600px] items-center justify-center gap-[63px] relative bg-[url(/img/frame-172.png)] bg-cover bg-[50%_50%]">
-      <div className="absolute top-7 left-36 w-[395px] h-[395px] rounded-[10px]" />
-
-      <img
-        className="relative w-[400px] h-[600px] object-cover"
-        alt="Img"
-        src="/img/img-1515-2.png"
+    <div className="flex flex-col w-[375px] items-center justify-center gap-[30px] px-0 py-[50px] relative flex-[0_0_auto]">
+      <Group
+        className="!flex-[0_0_auto] !inline-flex !left-[unset] !w-[unset] !top-[unset]"
+        divClassName="![align-self:unset] !w-fit"
+        text="Column"
+        text1="コラム"
       />
-
-      <div className="w-[538px] items-start gap-10 px-5 py-[30px] rounded-[10px] flex flex-col relative">
-        <div className="inline-flex flex-col items-start gap-5 relative flex-[0_0_auto] mr-[-8.00px]">
-          <div className="w-[218px] relative h-24">
-            <div className="absolute top-0 left-px [font-family:'Allura',Helvetica] font-normal text-[#dec17a] text-[64px] tracking-[0] leading-[normal]">
-              Greetings
-            </div>
-
-            <div className="absolute top-[26px] left-0 font-medium text-[#111111] text-5xl leading-[normal] [font-family:'Shippori_Mincho',Helvetica] tracking-[0]">
-              ご挨拶
-            </div>
+      <div className="flex flex-col items-center gap-[25px] relative self-stretch w-full flex-[0_0_auto]">
+        <div className="flex items-center justify-center gap-[35px] relative self-stretch w-full flex-[0_0_auto]">
+          <Frame25 className="!ml-[-252.50px] !left-[unset] !top-[unset]" />
+          <Frame25 className="!left-[unset] !top-[unset]" />
+          <Frame25 className="!mr-[-252.50px] !left-[unset] !top-[unset]" />
+          <div className="absolute top-[189px] left-80 w-10 h-10 bg-[#d2a3cb] rounded-[20px]">
+            <img
+              className="absolute top-[13px] left-[9px] w-[22px] h-3.5"
+              alt="Vector"
+              src="/img/vector-1-1.svg"
+            />
           </div>
 
-          <div className="flex flex-col items-start gap-2.5 relative self-stretch w-full flex-[0_0_auto]">
-            <div className="relative w-fit mt-[-1.00px] font-medium text-black text-[22px] leading-[37.4px] [font-family:'Shippori_Mincho',Helvetica] tracking-[0]">
-              資格はゴールじゃない。 <br />
-              本当のスタートは、「教える自信」を持てたとき。
-            </div>
-
-            <p className="font-normal text-[#111111] text-xl leading-[34.0px] relative self-stretch [font-family:'Shippori_Mincho',Helvetica] tracking-[0]">
-              資格を取っても、すぐに教えるのは不安。そんな声を何度も耳にしてきました。
-              だからlampでは、ただ学ぶだけでなく、
-              “教えられる力”を育てる講座をつくりました。
-              卒業後には、60分レッスンの設計と実践をしっかり経験 できます。
-              不安を自信に変えて、一歩を踏み出しましょう
-            </p>
+          <div className="absolute top-[189px] left-[15px] w-10 h-10 bg-[#d2a3cb] rounded-[20px] rotate-180">
+            <img
+              className="-rotate-180 absolute top-[13px] left-[9px] w-[22px] h-3.5"
+              alt="Vector"
+              src="/img/vector-1-2.svg"
+            />
           </div>
         </div>
 
-        <ConcreteComponentNode
-          className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
-          text="インストラクター紹介はこちら"
-          to="/u35611u24107u32057u20171"
-        />
+        <div className="inline-flex items-center gap-2.5 relative flex-[0_0_auto]">
+          <div className="bg-[#d2a3cb] relative w-2.5 h-2.5 rounded-[5px] aspect-[1]" />
+
+          <div className="bg-[#d9d9d9] relative w-2.5 h-2.5 rounded-[5px] aspect-[1]" />
+
+          <div className="bg-[#d9d9d9] relative w-2.5 h-2.5 rounded-[5px] aspect-[1]" />
+
+          <div className="bg-[#d9d9d9] relative w-2.5 h-2.5 rounded-[5px] aspect-[1]" />
+        </div>
       </div>
+
+      <ConcreteComponentNode
+        className="!flex-[0_0_auto] !left-[unset] !top-[unset]"
+        text="コラム一覧はこちら"
+      />
     </div>
   );
 };
