@@ -7,7 +7,7 @@ import { Group1 } from "./sections/Group1";
 export const ScreenWrapper = () => {
   return (
     <div
-      className="flex flex-col items-end relative bg-[#fcfbf9]"
+      className="flex flex-col items-center relative bg-[#fcfbf9]"
       data-model-id="4058:2575"
     >
       <Frame5 />

@@ -7,7 +7,7 @@ import { GroupWrapper } from "./sections/GroupWrapper";
 export const ScreenScreen = () => {
   return (
     <div
-      className="inline-flex flex-col items-start relative bg-[#fcfbf9]"
+      className="flex flex-col items-center relative bg-[#fcfbf9] w-full"
       data-model-id="4058:2618"
     >
       <Frame2 />
