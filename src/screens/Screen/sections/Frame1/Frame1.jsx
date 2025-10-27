@@ -99,7 +99,7 @@ export const Frame1 = () => {
                 </div>
 
                 <img
-                  className="relative self-stretch w-full aspect-[0.74]"
+                  className="relative w-[250px] aspect-[0.74]"
                   alt="Element"
                   src="/img/2025-10-20-0-37-16-1.png"
                 />
