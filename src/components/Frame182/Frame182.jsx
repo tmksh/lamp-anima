@@ -76,9 +76,9 @@ export const Frame182 = ({
               src="/img/rectangle-55.png"
             />
 
-            <div className="flex w-[1100px] items-center justify-between relative flex-[0_0_auto]">
+            <div className="inline-flex items-center gap-[33.33px] relative flex-[0_0_auto]">
               <Link
-                className="ml-[-3.00px] flex flex-col w-64 h-[126px] items-center justify-center gap-2.5 px-[38px] py-[84px] relative mt-[-3.00px] mb-[-3.00px] bg-[#d2a3cb] rounded-[10px] overflow-hidden border-[3px] border-solid border-white shadow-[0px_5px_5px_#0000001a]"
+                className="flex flex-col w-64 h-[126px] items-center justify-center gap-2.5 px-[38px] py-[84px] relative mt-[-3.00px] mb-[-3.00px] ml-[-3.00px] bg-[#d2a3cb] rounded-[10px] overflow-hidden border-[3px] border-solid border-white shadow-[0px_5px_5px_#0000001a]"
                 to={to}
               >
                 <img
